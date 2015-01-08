@@ -21,13 +21,23 @@
 
 * [angular-route](https://github.com/angular/bower-angular-route)
 
-angular 原生的 route api，不過有更強大的第三方套件 [angular-ui-router](https://github.com/angular-ui/ui-router) 。
+angular 原生的 route api，不過有更強大的第三方套件 [angular-ui-router](https://github.com/angular-ui/ui-router)，
 
 補充： [網路上兩者的比較](http://stackoverflow.com/questions/21023763/difference-between-angular-route-and-angular-ui-router)。
 
 * [angular-sanitize](https://docs.angularjs.org/api/ngSanitize)
 
 用來過濾白名單，防止 html 中隱藏 xss 攻擊。
+
+## 多國語系用（請整包服用）
+
+* [angular-translate](http://angular-translate.github.io/)
+
+* [angular-translate-loader-static-files](https://github.com/sbarysiuk/angular-translate-loader-static-files)
+Use this extension to use the asynchronous static-files loader for angular-translate.
+
+* [angular-translate-storage-cookie](https://github.com/webjars/angular-translate-storage-cookie)
+
 
 
 ## 未分類
@@ -74,9 +84,7 @@ table 相關套件，有提供 filter 、 sorting 、 客製化表頭 ... 等功
 
 * [ng-bs-daterangepicker](https://github.com/TMDer/ng-bs-daterangepicker.git#e4e45c78cf6d5b3ca5fcf931a3118d4e943b852d)
 
-上面連結的版本為 TMDer fork 改過的，主要源[自於此](https://github.com/luisfarzati/ng-bs-daterangepicker)，
-
-適用於需要取得日期區間的套件。
+上面連結的版本為 TMDer fork 改過的，主要源[自於此](https://github.com/luisfarzati/ng-bs-daterangepicker)，適用於需要取得日期區間的套件。
 
 * [angular-jquery-timepicker](https://github.com/Recras/angular-jquery-timepicker.git)
 
@@ -92,6 +100,7 @@ table 相關套件，有提供 filter 、 sorting 、 客製化表頭 ... 等功
 帶有訊息的圓形 loading。
 
 * [ng-mk-modal-effect](https://github.com/malikid/ng-mk-modal-effect.git)
+
 可客製化設定多種不同動畫、大小顯示遮罩頁面的套件，試玩看看 [點我](http://malikid.github.io/ng-mk-modal-effect/example/)。
 
 * [angular-busy](https://github.com/cgross/angular-busy)
@@ -104,14 +113,13 @@ table 相關套件，有提供 filter 、 sorting 、 客製化表頭 ... 等功
 
 
 * angular-file-upload
+https://github.com/danialfarid/angular-file-upload
+https://github.com/nervgh/angular-file-upload
+圖片上傳套件
 
-* angular-cookies
+* [angular-cookies](https://github.com/angularifyjs/angular-cookies)
 
-* angular-translate
-
-* angular-translate-loader-static-files
-
-* angular-translate-storage-cookie
+利於簡單管理 cookies 適用於 angular 。
 
 * tmd-bootstrap-nav-tree
 
